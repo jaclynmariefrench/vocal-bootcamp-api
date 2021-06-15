@@ -1,0 +1,36 @@
+{
+    "users" : [
+        {
+            "id": 1,
+            "name": "Jackie",
+            "email": "jackie@voice.com"
+        }
+    ],
+    "warmUps": [
+        {
+            "id": 1,
+            "userId": 1
+            
+        }
+    ],
+    "warmUpGoals": [
+        {
+            "id": 1,
+            "goalName": "Range"
+        }
+    ],
+    "voiceTypes": [
+        {
+            "id": 1,
+            "typeName": "Soprano"
+        }
+    ],
+    "warmUpGenerator": [
+        {
+            "id": 1,
+            "warmupId": 1,
+            "warmUpGoalsId": 1,
+            "voiceTypeId": 1
+        }
+    ]
+}
