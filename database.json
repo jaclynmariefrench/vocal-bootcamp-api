@@ -17,8 +17,6 @@
       "userId": 1,
       "typeGoal": "Soprano Power",
       "notes": "This warm up helped me!"
-      
-      
     }
   ],
   "warmUpGoals": [
@@ -37,8 +35,13 @@
     {
       "id": 4,
       "goalName": "Range"
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
     }
-
   ],
   "voiceTypes": [
     {
@@ -62,7 +65,7 @@
     {
       "id": 1,
       "warmupId": 1,
-      "warmUpGoalsId": 1,
+      "warmUpGoalId": 1,
       "voiceTypeId": 1
     }
   ]
