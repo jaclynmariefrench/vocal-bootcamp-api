@@ -1,36 +1,69 @@
 {
-    "users" : [
-        {
-            "id": 1,
-            "name": "Jackie",
-            "email": "jackie@voice.com"
-        }
-    ],
-    "warmUps": [
-        {
-            "id": 1,
-            "userId": 1
-            
-        }
-    ],
-    "warmUpGoals": [
-        {
-            "id": 1,
-            "goalName": "Range"
-        }
-    ],
-    "voiceTypes": [
-        {
-            "id": 1,
-            "typeName": "Soprano"
-        }
-    ],
-    "warmUpGenerator": [
-        {
-            "id": 1,
-            "warmupId": 1,
-            "warmUpGoalsId": 1,
-            "voiceTypeId": 1
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Jackie",
+      "email": "jackie@voice.com"
+    },
+    {
+      "email": "Travis@voice.com",
+      "name": "Travis H",
+      "id": 2
+    }
+  ],
+  "warmUps": [
+    {
+      "id": 1,
+      "userId": 1,
+      "typeGoal": "Soprano Power",
+      "notes": "This warm up helped me!"
+      
+      
+    }
+  ],
+  "warmUpGoals": [
+    {
+      "id": 1,
+      "goalName": "Power"
+    },
+    {
+      "id": 2,
+      "goalName": "Control"
+    },
+    {
+      "id": 3,
+      "goalName": "Warm Up"
+    },
+    {
+      "id": 4,
+      "goalName": "Range"
+    }
+
+  ],
+  "voiceTypes": [
+    {
+      "id": 1,
+      "typeName": "Soprano"
+    },
+    {
+      "id": 2,
+      "typeName": "Alto"
+    },
+    {
+      "id": 3,
+      "typeName": "Tenor"
+    },
+    {
+      "id": 4,
+      "typeName": "Bass"
+    }
+  ],
+  "warmUpGenerator": [
+    {
+      "id": 1,
+      "warmupId": 1,
+      "warmUpGoalsId": 1,
+      "voiceTypeId": 1
+    }
+  ]
 }
