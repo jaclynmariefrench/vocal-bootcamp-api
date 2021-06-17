@@ -15,8 +15,9 @@
     {
       "id": 1,
       "userId": 1,
-      "typeGoal": "Soprano Power",
-      "notes": "This warm up helped me!"
+      "timestamp": 1623942474000,
+      "notes": "This warm up helped me!",
+      "audioId": 1
     }
   ],
   "warmUpGoals": [
@@ -35,12 +36,6 @@
     {
       "id": 4,
       "goalName": "Range"
-    },
-    {
-      "id": 5
-    },
-    {
-      "id": 6
     }
   ],
   "voiceTypes": [
@@ -64,9 +59,15 @@
   "warmUpGenerator": [
     {
       "id": 1,
-      "warmupId": 1,
-      "warmUpGoalId": 1,
-      "voiceTypeId": 1
+      "warmupId": 1
+    }
+  ],
+  "audio": [
+    {
+      "id": 1, 
+      "warmUpGoalsId": 1,
+      "typeNameId": 1,
+      "audioURL": ""
     }
   ]
 }
