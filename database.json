@@ -11,13 +11,24 @@
       "id": 2
     }
   ],
-  "warmUps": [
+  "userWarmUps": [
     {
       "id": 1,
-      "userId": 1,
       "timestamp": 1623942474000,
       "notes": "This warm up helped me!",
-      "audioId": 1
+      "userId": 2
+    },
+    {
+      "timestamp": 1624305233778,
+      "notes": "This warmup was a challenge",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "timestamp": 1624305268268,
+      "notes": "this helped so much!",
+      "userId": 2,
+      "id": 3
     }
   ],
   "warmUpGoals": [
@@ -64,10 +75,10 @@
   ],
   "audio": [
     {
-      "id": 1, 
+      "id": 1,
       "warmUpGoalsId": 1,
       "typeNameId": 1,
-      "audioURL": ""
+      "audioURL": "https://drive.google.com/uc?export=download&id=1d0G_0eY2kEUDeb2x3l2v7iNxdIpv0Nrc"
     }
   ]
 }
